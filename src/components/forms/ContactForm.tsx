@@ -310,7 +310,7 @@ export function ContactForm() {
         {/* Phone */}
         <div>
           <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-            Phone number
+            Phone Number
           </label>
           <input
             type="tel"
