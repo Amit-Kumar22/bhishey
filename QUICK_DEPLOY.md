@@ -44,7 +44,10 @@ DATABASE_URL=postgresql://user:pass@host:5432/db?sslmode=require
 JWT_SECRET=<paste-first-random-string>
 JWT_REFRESH_SECRET=<paste-second-random-string>
 NODE_ENV=production
+DB_ALLOW_SELF_SIGNED=true
 ```
+
+**Note:** The `DB_ALLOW_SELF_SIGNED=true` is needed for Aiven and other databases with self-signed certificates.
 
 4. Click **Deploy**
 5. Wait 2-5 minutes for build to complete ✅
