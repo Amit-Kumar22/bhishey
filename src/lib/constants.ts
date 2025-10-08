@@ -212,7 +212,7 @@ export const navigation = {
       hasDropdown: true,
       children: [
         { label: 'Team', href: '/company/teams' },
-        { label: 'Contact', href: '/contact-us' },
+        { label: 'Contacts', href: '/contact-us' },
       ],
     },
   ],
